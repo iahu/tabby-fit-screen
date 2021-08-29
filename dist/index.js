@@ -29,7 +29,10 @@ let MyModule = class MyModule {
                 }
                 else {
                     window.resizeTo(availWidth, availHeight);
-                    sessionStorage.setItem(storeageKey, JSON.stringify({ width: outerWidth, height: outerHeight }));
+                    sessionStorage.setItem(storeageKey, JSON.stringify({
+                        width: outerWidth,
+                        height: outerHeight,
+                    }));
                 }
             }
         });

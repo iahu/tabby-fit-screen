@@ -10,10 +10,8 @@
     "tabby-plugin",
     "fit-screen"
   ],
-  "dependencies": {
-    "@angular/core": "^12.2.3"
-  },
   "devDependencies": {
+    "@angular/core": "^12.2.3",
     "rxjs": "^7.3.0",
     "tabby-core": "^1.0.156-nightly.2",
     "tabby-settings": "^1.0.156-nightly.2",
