@@ -1,0 +1,25 @@
+{
+  "name": "tabby-fit-screen",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "tabby-plugin",
+    "fit-screen"
+  ],
+  "dependencies": {
+    "@angular/core": "^12.2.3"
+  },
+  "devDependencies": {
+    "rxjs": "^7.3.0",
+    "tabby-core": "^1.0.156-nightly.2",
+    "tabby-settings": "^1.0.156-nightly.2",
+    "typescript": "^4.4.2"
+  },
+  "author": "i18u",
+  "description": "tabby plugin to fit screen",
+  "repository": "git@github.com:iahu/fit-screen.git"
+}
